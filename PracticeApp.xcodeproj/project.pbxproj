@@ -13,6 +13,8 @@
 		8932C5A326E0829000D4890E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8932C5A126E0829000D4890E /* Main.storyboard */; };
 		8932C5A526E0829600D4890E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8932C5A426E0829600D4890E /* Assets.xcassets */; };
 		8932C5A826E0829600D4890E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8932C5A626E0829600D4890E /* LaunchScreen.storyboard */; };
+		8932C5B226E088F500D4890E /* light_off.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8932C5B026E088F400D4890E /* light_off.jpeg */; };
+		8932C5B326E088F500D4890E /* light_on.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8932C5B126E088F500D4890E /* light_on.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8932C5A426E0829600D4890E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8932C5A726E0829600D4890E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8932C5A926E0829600D4890E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8932C5B026E088F400D4890E /* light_off.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = light_off.jpeg; sourceTree = "<group>"; };
+		8932C5B126E088F500D4890E /* light_on.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = light_on.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8932C59D26E0829000D4890E /* SceneDelegate.swift */,
 				8932C59F26E0829000D4890E /* ViewController.swift */,
 				8932C5A126E0829000D4890E /* Main.storyboard */,
+				8932C5B026E088F400D4890E /* light_off.jpeg */,
+				8932C5B126E088F500D4890E /* light_on.jpeg */,
 				8932C5A426E0829600D4890E /* Assets.xcassets */,
 				8932C5A626E0829600D4890E /* LaunchScreen.storyboard */,
 				8932C5A926E0829600D4890E /* Info.plist */,
@@ -124,6 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8932C5B326E088F500D4890E /* light_on.jpeg in Resources */,
+				8932C5B226E088F500D4890E /* light_off.jpeg in Resources */,
 				8932C5A826E0829600D4890E /* LaunchScreen.storyboard in Resources */,
 				8932C5A526E0829600D4890E /* Assets.xcassets in Resources */,
 				8932C5A326E0829000D4890E /* Main.storyboard in Resources */,
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.doris.PracticeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.doris.PracticeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
